@@ -1,0 +1,58 @@
+@media(max-width: 1024px) {
+    .main .mockups {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-left: 0px;
+    }
+
+    .main .mockups .illustration {
+        width: 80%;
+    }
+
+    .main .mockups .info {
+        text-align: center;
+    }
+
+    .main .mockups .info .social {
+        justify-content: center;
+        padding: 0;
+        padding-top: 90px;
+        margin-bottom: 70px;
+    }
+}
+
+@media(max-width: 425px) {
+    body {
+        background: url(../images/bg-mobile.svg) center center no-repeat;
+        background-size: cover;
+        background-color: hsl(257, 40%, 49%);
+    }
+
+    .main .logo {
+        width: 50%;
+        padding: 50px 40px  70px;
+    }
+
+    .main .mockups .info .title {
+        font-size: 2.8rem;
+    }
+
+    .main .mockups .info .description {
+        padding-top: 15px;
+        font-size: 1.6rem;
+    }
+
+    .main .mockups .info .btn-register {
+        font-size: 1.6rem;
+        padding: 12px 80px;
+    }
+
+    .main .mockups .info .social {
+        padding-top: 70px;
+    }
+
+    .main .mockups .info .social .fab {
+        font-size: 1.6rem;
+    }
+}
